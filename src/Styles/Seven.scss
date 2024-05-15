@@ -1,0 +1,54 @@
+.body {
+  justify-content: center;
+  background: rgba(30, 40, 50, 0.05);
+}
+.txt {
+  display: flex;
+  //styleName: H2;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 50px;
+  font-weight: 500;
+
+  text-align: center;
+
+  justify-content: center;
+}
+.card_post {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+.input {
+  justify-content: center;
+
+  //   display: flex;
+}
+.input1 {
+  justify-content: center;
+  gap: 20px;
+  display: flex;
+}
+.txtbox {
+  background: none;
+}
+.input1 input {
+  width: 580px;
+  height: 50px;
+  border: none;
+  border-bottom: solid 2px black;
+}
+.input1 button {
+  background: none;
+  border: none;
+  border-bottom: solid 2px  black;
+}
+
+@media screen and (max-width: 800px) {
+  .txt p {
+    font-size: 30px;
+  }
+  .input1 {
+    display: none;
+  }
+}

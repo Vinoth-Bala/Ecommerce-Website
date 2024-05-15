@@ -1,0 +1,91 @@
+* {
+  font-family: Open Sans;
+}
+.footer {
+  margin-top: 50px;
+  display: flex;
+  //grid-template-rows: 1fr 1fr 1fr 1fr;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  //align-content: end;
+  //width: 80vw;
+}
+.footer ul {
+  list-style-type: none;
+}
+
+.one {
+  margin-top: 18px;
+  width: 25%;
+  gap: 20px;
+}
+.one ul {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: space-evenly;
+}
+.coral {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-family: AmstelvarAlpha;
+  font-size: 30px;
+}
+.socialicon {
+  display: flex;
+  gap: 50px;
+}
+.socialicon a {
+  color: black;
+}
+.two ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.three {
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  //    align-items: flex-end;
+}
+
+.three ul {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.four ul {
+  display: flex;
+  gap: 15px;
+  flex-direction: column;
+}
+.bottom {
+  display: flex;
+  //width: 90vw;
+  justify-content: space-around;
+  align-items: center;
+  background: rgba(30, 40, 50, 1);
+}
+.bottom p {
+  color: whitesmoke;
+}
+
+.bottom button {
+  color: whitesmoke;
+  background: none;
+  border: none;
+}
+
+@media screen and (max-width: 700px) {
+  .footer {
+    flex-direction: column;
+    align-items: flex-start;
+    //justify-content: center;
+  }
+  .bottom {
+    flex-direction: column;
+    gap: 15px;
+  }
+}
